@@ -1,4 +1,3 @@
-<h1>Hello World</h1>
 import os
 import boto3
 import requests
