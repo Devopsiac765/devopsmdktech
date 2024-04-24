@@ -6,6 +6,6 @@ phases:
       python: 3.8
   build:
     commands:
-      - aws s3 cp s3://gihub-deploy-890 . --recursive
+      # - aws s3 cp s3://gihub-deploy-890 . --recursive
       - git clone https://github.com/Devopsiac765/devopsmdktech.git
       - aws s3 cp repo/ s3://gihub-deploy-890 --recursive
