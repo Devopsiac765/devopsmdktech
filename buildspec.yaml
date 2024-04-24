@@ -12,4 +12,4 @@ phases:
             # Sync only the changed files to the S3 bucket
       # - cd $CODEBUILD_SRC_DIR  # Navigate to the source directory provided by CodePipeline
       - git clone -b aws_devops https://github.com/Devopsiac765/devopsmdktech.git
-      - aws s3 sync devopsmdktech/ s3://gihub-deploy-890/
+      - aws s3 sync devopsmdktech/ s3://gihub-deploy-890/ --delete
