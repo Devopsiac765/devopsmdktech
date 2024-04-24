@@ -27,7 +27,7 @@ def lambda_handler(event, context):
     # S3 bucket information
     bucket_name = 'gihub-deploy-890'
 
-    # GitHub Personal Access Token
+    # GitHub Personal Access Token update in envirment variables
     github_token = os.environ['GITHUB_TOKEN']
 
     # Fetch list of files and folders from GitHub repository
