@@ -7,5 +7,5 @@ phases:
   build:
     commands:
       - aws s3 cp s3://gihub-deploy-890 . --recursive
-      - git clone -b lambda https://github.com/Devopsiac765/devopsmdktech.git
+      - git clone -b aws_devops https://github.com/Devopsiac765/devopsmdktech.git
       - aws s3 cp devopsmdktech/ s3://gihub-deploy-890 --recursive
